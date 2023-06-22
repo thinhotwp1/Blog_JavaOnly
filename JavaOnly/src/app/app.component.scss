@@ -4,18 +4,19 @@ body{
   color: #ededed;
 }
 
-.header{
+.header {
   position: fixed;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   width: 100%;
   padding: 20px 10%;
   background: transparent;
   display: flex;
   justify-content: space-between;
-  justify-content: center;
+  align-items: flex-start; /* Thêm thuộc tính này */
   z-index: 100;
 }
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -28,12 +29,12 @@ body{
 }
 
 
-.logo{
+.logo {
   position: relative;
-  justify-content: left !important;
   font-size: 25px;
+  padding-top: 10px;
   padding-left: 20px;
-  color: #ededed;
+  color: #dddddd  ;
   text-decoration: none;
   font-weight: 600;
 }
@@ -46,7 +47,11 @@ body{
 
 }
 .navbar a:hover,
-.navbar a.active {
-  color: #00abf0;
+.navbar a.home {
+  color: #ffffff;
 
+}
+
+.navbar a.active {
+  color: #00abf0; /* Màu trắng */
 }
