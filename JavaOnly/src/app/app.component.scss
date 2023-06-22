@@ -3,6 +3,7 @@ body{
   background: #081b29;
   color: #ededed;
 }
+
 .header{
   position: fixed;
   top:0;
@@ -15,6 +16,17 @@ body{
   justify-content: center;
   z-index: 100;
 }
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: transparent;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #797575;
+}
+
 
 .logo{
   position: relative;
