@@ -18,4 +18,3 @@ Blogger Thinh Duy !
 6. Sửa dòng root /var/www/html; thành root /var/www/html/java-only; để nginx trỏ về index.html của dự án 
 7. Terminal: sudo service nginx restart để khởi động lại dịch vụ nginx -> Done !!!
 ==== End Build & Deploy project ====
-
