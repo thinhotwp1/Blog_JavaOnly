@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./devops.component.scss']
 })
 export class DevopsComponent {
+  constructor() { }
 
+  
 }

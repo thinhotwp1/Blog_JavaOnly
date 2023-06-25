@@ -8,6 +8,7 @@ import { BackendComponent } from './pages/backend/backend.component';
 import { FrontendComponent } from './pages/frontend/frontend.component';
 import { AboutComponent } from './pages/about/about.component';
 import { DevopsComponent } from './pages/devops/devops.component';
+import { DevopspageComponent } from './pages/devops/devopspage/devopspage.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DevopsComponent } from './pages/devops/devops.component';
     BackendComponent,
     FrontendComponent,
     AboutComponent,
-    DevopsComponent
+    DevopsComponent,
+    DevopspageComponent,
   ],
   imports: [
     BrowserModule,
